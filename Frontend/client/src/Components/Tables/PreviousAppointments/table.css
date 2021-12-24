@@ -1,0 +1,32 @@
+#appointments td {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+ }
+
+
+ .print_this{display:none;}
+ 
+  @media print {
+   .no_print{display: none;}
+   .NavbarItems{display: none;}
+   .footer_to_print{display: none;}
+   .print_this {display: block; transform-origin: top right;}
+   #chart {display: block; page-break-before: always !important; zoom: 54%; transform-origin: top right;}
+}
+
+
+.report_header {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+
+.disable_container {
+  border: none;
+  box-shadow: none;
+  padding: none;
+  border-radius: none;
+  margin-top: 1%;
+}
+

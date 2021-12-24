@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb://aapefpmongodb:4mjQK9NB6G9lJBfwSzGt1Eb4L8QyCu7KMNhalUjVHtp0h8Kyn3mEyzrjXLt3cvLkExGbM1h5X0266V2I41Ch1w==@aapefpmongodb.mongo.cosmos.azure.com:10255/AAPEFPDatabase?ssl=true",
+  "jwtAAPEFP": "sDBjwtver@ucl"
+}

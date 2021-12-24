@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="640px" height="640px" class="donut" version="1.0" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024.000000 656.000000">
+  <circle class="donut-hole" cx="320" cy="210" r="150.91549430918954" fill="none"></circle>
+  <circle class="donut-ring" cx="320" cy="210" r="150.91549430918954"  fill="transparent" stroke="#193d66" stroke-width="170"></circle>
+  <circle class="donut-segment" cx="320" cy="210" r="150.91549430918954"  fill="transparent" stroke="#ffffff" stroke-width="170" stroke-dasharray="470 405" stroke-dashoffset="638"></circle>
+</svg>

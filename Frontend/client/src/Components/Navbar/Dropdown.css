@@ -1,0 +1,43 @@
+.dropdown-menu {
+    width: 160px;
+    position: absolute;
+    top: 56px;
+    right: 34px;
+    list-style: none;
+    text-align: left;
+}
+
+.dropdown-menu li {
+    background: #193d66;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background: #4972a1;
+}
+
+.dropdown-menu.clicked {
+    display: none;
+    margin-top: 30px;
+}
+
+.dropdown-link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+
+.dropdown-link-log-out {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+

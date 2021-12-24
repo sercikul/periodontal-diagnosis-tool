@@ -1,0 +1,17 @@
+.centered-thing {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 910px;
+    height: 400px;
+}
+
+@media screen and (max-width: 964px) {
+    .centered-thing {
+        width: 50%;
+        height: 10%;
+    }
+}

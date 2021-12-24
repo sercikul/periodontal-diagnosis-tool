@@ -1,0 +1,366 @@
+input {
+    width:100%;
+    text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+
+}
+
+::selection {
+    background: #4972a1; /* WebKit/Blink Browsers */
+  }
+
+
+
+.input_note {
+    width: 245%;
+    margin-left: -15px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+}
+
+.input_note_last {
+    width: 180%;
+    margin-left: -15px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+  
+}
+
+.input_mobility {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    margin-left: 3.5px;
+}
+
+.input_mobility_last {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    margin-left: 1px;
+}
+
+.input_mobility_last:focus {
+    background-color: #4972a1;
+    border-radius: 6px;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+
+.input_mobility_disabled {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    margin-left: 3.5px;
+    visibility: hidden;
+}
+
+
+
+.input_mobility:focus {
+    background-color: #4972a1;
+    border-radius: 6px;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .input_gingival_probing_red {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    color: rgb(226, 14, 14);
+    font-weight: bold;
+
+}
+
+.input_gingival_probing_red:focus {
+    background-color: #4972a1;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    color: rgb(226, 14, 14);
+  }
+
+  #input_gingival_probing_1 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    width: 70%;
+    margin-left: -14px;
+
+}
+
+
+#input_gingival_probing_2 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    width: 70%;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+#input_gingival_probing_3 {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    width: 70%;
+    margin-right: -22px;
+}
+
+  #input_gingival_probing_1_lst {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    width: 65%;
+    margin-left: -20px;
+
+}
+
+
+#input_gingival_probing_2_lst {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    width: 65%;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+#input_gingival_probing_3_lst {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    outline: none;
+    width: 65%;
+    margin-right: -21px;
+}
+
+
+
+.input_gingival_probing:focus {
+    background-color: #4972a1;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    color: #fff;
+  }
+
+.periodontal-table {
+    width: 60%;
+    margin-top: 20px;
+}
+
+
+.grid-form th, td {
+    border: 0.1px solid #193d66;
+    padding: 0.1px 14px;
+
+}
+
+.grid-form-2 th, td {
+    border: 0.1px solid #af1058;
+    padding: 0.1px 14px;
+
+}
+
+
+
+.group {
+    display: flex;
+    margin-left: -310px;
+}
+
+.progress-container {
+    margin-left: -4px;
+}
+
+.implant_svg_pink { 
+    position: relative;
+    cursor: pointer;
+    left: 882px;
+    width: 50px;
+    bottom: -20px;
+    height: 50px;
+  }
+  .disable_implant_screening_pink { 
+    position: relative;
+    cursor: pointer;
+    left: 882px;
+    width: 50px;
+    bottom: -20px;
+    height: 50px;
+    visibility: hidden;
+  }
+
+  .implant_svg_blue { 
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    top: -30px;
+    left: 345px;
+    height: 50px;
+  }
+
+  .disable_implant_screening_blue {
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    top: -30px;
+    left: 345px;
+    height: 50px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1330px) {
+    .group {
+        display: flex;
+        margin-left: -280px;
+        zoom: 0.77;
+    }
+    .progress-container {
+        margin-left: 30px;
+        zoom: 0.77;
+    }
+
+    .implant_svg_pink {
+        zoom: 0.77;
+    }
+    .implant_svg_blue {
+        zoom: 0.77;
+        left: 405px;
+    }
+    .labels a{
+        left: 255px;
+        display: block;
+        position: absolute;
+        text-align: right;
+        margin-top: -2%;
+    }
+}
+
+
+.labels a{
+    left: 252px;
+    display: block;
+    position: relative;
+    text-align: right;
+}
+
+
+.medical-data-buccal a {
+    font-size: 14px;
+    top: 69px;
+    margin: 12px;
+    color:  #193d66;
+    width: 150px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow-x: visible;
+}
+
+
+#plaque {
+    font-size: 14px;
+    top: 72px;
+    margin: 12px;
+    color:  #193d66;
+    width: 150px;
+    font-weight: normal;
+    margin-right: 16px;
+    margin-top: -8px;
+    font-weight: bold;
+}
+
+.buccal-lingual a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #af1058;
+    top: 160px;
+    margin-bottom: 200px;
+    margin-left: 30px;
+    z-index: -100;
+    text-align: center;
+
+}
+
+.medical-data-lingual a {
+    font-size: 14px;
+    top: 65px;
+    margin: 12px;
+    color:  #193d66;
+    width: 150px;
+    z-index: -100;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow-x: visible;
+}
+
+svg {
+    margin-left: -16px;
+    overflow: visible;
+}
+
+.vl {
+    border-left: solid #af1058;
+    height: 20px; 
+    position:absolute; 
+    left: 16px;
+    bottom: -3px 
+}
+
+

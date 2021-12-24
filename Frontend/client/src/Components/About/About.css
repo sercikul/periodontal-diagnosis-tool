@@ -1,0 +1,24 @@
+#ul {
+    margin: 10px 10px 10px 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#ul:before{
+    content:"• ";
+    font-weight: bold;
+}
+
+ #ul.a {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+#developer {
+  padding-top: 5px;
+  font-size: 11px;
+  color: rgba(31, 31, 34, 0.8);
+  font-weight: 500;
+  margin-right: 10px;
+}
