@@ -15,7 +15,7 @@ export const PatientAPI = async (config) =>{
         }
 
         const res = await axios.post(
-            `https://backendaapefp.azurewebsites.net/api/patient`,
+            `https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/patient`,
             patient,
             config
         )
@@ -31,7 +31,7 @@ export const PatientAPI = async (config) =>{
         }
 
         await axios.post(
-            `https://backendaapefp.azurewebsites.net/api/patient/update/${sessionStorage.getItem("PatientId")}`,
+            `https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/patient/update/${sessionStorage.getItem("PatientId")}`,
             patientUpdate,
             config
         )

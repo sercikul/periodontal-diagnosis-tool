@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-app.use(cors({origin: ['https://aapefp.azurewebsites.net', 'http://localhost:3000/']}));
+app.use(cors({origin: ['https://ucl-periodontal-diagnosis-tool.herokuapp.com/', 'http://localhost:3000/']}));
 
 //Bodyparser Middleware
 app.use(express.json());
@@ -18,7 +18,6 @@ app.use("/api/feedback", require("./routes/api/feedback"));
 app.use('/api/auth', require('./routes/api/auth'));
 app.use("/api/assessment", require("./routes/api/assessment"));
 app.use("/api/patient", require("./routes/api/patient"));
-app.use('/admin',require('./routes/api/admin.router'))
 
 console.log("")
 console.log("")

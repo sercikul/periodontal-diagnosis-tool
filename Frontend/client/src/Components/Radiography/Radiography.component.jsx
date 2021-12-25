@@ -66,7 +66,7 @@ class RadiographyComponent extends React.Component{
             Assessment['ImplantStatusDropItems'] = sessionStorage.getItem("ImplantStatusDropItems");
 
             await axios.post(
-                `https://backendaapefp.azurewebsites.net/api/assessment/`,
+                `https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/assessment/`,
                 Assessment,
                 config
             ).then(async res => {
@@ -272,7 +272,7 @@ class RadiographyComponent extends React.Component{
     handleImageUpload = async (config) =>{
         let Assessment = new FormData();
         Assessment.append('xRayImage', this.state.fileSubmit);
-        await axios.post(`https://backendaapefp.azurewebsites.net/api/assessment/image/${this.state.AssessmentId}`,
+        await axios.post(`https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/assessment/image/${this.state.AssessmentId}`,
             Assessment,
             config)
     }

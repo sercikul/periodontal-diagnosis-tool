@@ -17,7 +17,7 @@ class PatientsTable extends React.Component {
 
     async componentDidMount() {
 
-        const assessment = await axios.get(`https://backendaapefp.azurewebsites.net/api/assessment/getAllPatients/${this.state.doctorId}`)
+        const assessment = await axios.get(`ucl-periodontal-diagnosis-tool.herokuapp.com/api/assessment/getAllPatients/${this.state.doctorId}`)
         this.setState({assessments: assessment.data});
     }
 

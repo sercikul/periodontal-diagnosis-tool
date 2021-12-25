@@ -30,7 +30,7 @@ export const ForgotPassword = ({showForgotPassword, setShowForgotPassword}) => {
             tokenExpirationDate: moment().add(6, 'hours').toISOString()
         }
 
-        axios.post("https://backendaapefp.azurewebsites.net/api/doctors/passwordReset",body).then()
+        axios.post("https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/doctors/passwordReset",body).then()
     }
 
     // Show a message that a password reset email was sent

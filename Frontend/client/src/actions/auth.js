@@ -26,7 +26,7 @@ export const loadUser = () => async dispatch =>{
             throw "err";
         }
 
-        const res = await axios.get(`https://backendaapefp.azurewebsites.net/api/auth/`)
+        const res = await axios.get(`https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/auth/`)
         dispatch({
             type: DOCTOR_USER_LOADED,
             payload: res.data
@@ -52,7 +52,7 @@ export const userRegister = (body) => async dispatch =>{
 
     try{
         const res = await axios.post(
-            `https://backendaapefp.azurewebsites.net/api/doctors/`,
+            `https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/doctors/`,
             body,
             config
         );
@@ -85,7 +85,7 @@ export const userLogin = (body) => async dispatch =>{
 
     try{
         const res = await axios.post(
-            `https://backendaapefp.azurewebsites.net/api/auth`,
+            `https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/auth`,
             body,
             config
         );

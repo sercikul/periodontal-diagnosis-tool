@@ -32,7 +32,7 @@ function ResetPasswordLoggedOut() {
             tokenExpirationDate: moment().add(6, 'hours').toISOString()
 
         };
-        await axios.post(`https://backendaapefp.azurewebsites.net/api/doctors/newPasswordReset/${window.location.href.split('/').slice(-1).pop()}`,body).then(res =>{
+        await axios.post(`https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/doctors/newPasswordReset/${window.location.href.split('/').slice(-1).pop()}`,body).then(res =>{
             if(res.status == 200){
                 history.push('/login')
             }

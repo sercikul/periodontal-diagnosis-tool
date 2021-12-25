@@ -22,7 +22,7 @@ export const AssessmentAPI = async () => {
         });
 
         const res = await axios.post(
-            `https://backendaapefp.azurewebsites.net/api/assessment/`,
+            `https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/assessment/`,
             Assessment,
             config)
             sessionStorage.setItem("AssessmentId", await res.data.id);
@@ -45,7 +45,7 @@ export const AssessmentAPI = async () => {
         });
 
         await axios.post(
-            `https://backendaapefp.azurewebsites.net/api/assessment/update/${sessionStorage.getItem("AssessmentId")}`,
+            `https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/assessment/update/${sessionStorage.getItem("AssessmentId")}`,
             Assessment,
             config
         ).then(res => {

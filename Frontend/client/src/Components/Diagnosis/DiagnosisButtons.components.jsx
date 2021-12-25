@@ -82,7 +82,7 @@ class DiagnosisButtonsBox extends React.Component{
             });
             
             axios.post(
-                `https://backendaapefp.azurewebsites.net/api/assessment/update/${sessionStorage.getItem("AssessmentId")}`,
+                `https://ucl-periodontal-diagnosis-tool.herokuapp.com/api/assessment/update/${sessionStorage.getItem("AssessmentId")}`,
                 Assessment,
                 config
             )
